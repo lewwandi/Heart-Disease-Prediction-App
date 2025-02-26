@@ -1,0 +1,183 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+ /* @import 'tailwindcss/base';
+ @import 'tailwindcss/components';
+ @import 'tailwindcss/utilities'; */
+
+ :root {
+   --primary: #1aac83;
+   --error: #e7195a;
+ }
+
+ body {
+   background: #f1f1f1;
+   margin: 0;
+   font-family: "Poppins";
+ }
+
+ header {
+   background: linear-gradient(to right, #0b8361, #3bd2a2, #f3eded);
+   padding: 15px 0;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+ }
+
+ header .container {
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 0 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ header h1 {
+   color: #333;
+   font-size: 1.8em;
+   font-weight: bold;
+   margin: 0;
+ }
+
+ /* Center form container */
+ .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ /* Style for form */
+ .form-container {
+   background: #fff;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   width: 100%;
+   max-width: 500px;
+   text-align: left;
+ }
+
+
+ header .container {
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 10px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ header a {
+   color: #333;
+   text-decoration: none;
+ }
+
+ .pages {
+   max-width: 1400px;
+   padding: 20px;
+   margin: 0 auto;
+ }
+
+ /* navbar */
+ nav {
+   display: flex;
+   align-items: center;
+ }
+
+ nav a {
+   margin-left: 10px;
+ }
+
+
+ nav button {
+   background: #fff;
+   color: var(--primary);
+   border: 2px solid var(--primary);
+   padding: 6px 12px;
+   border-radius: 4px;
+   font-family: "Poppins", sans-serif;
+   cursor: pointer;
+   font-size: 1em;
+   margin-left: 10px;
+ }
+
+
+ /* Form Inputs */
+ form {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+ }
+
+ form label {
+   font-weight: bold;
+   font-size: 1.1em;
+ }
+
+ form input,
+ form select {
+   width: 80%;
+   max-width: 400px;
+   padding: 8px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: white;
+   box-sizing: border-box;
+ }
+
+ form button {
+   width: 80%;
+   /* Match width of input fields */
+   max-width: 400px;
+
+   background: #1aac83;
+   color: white;
+   padding: 12px;
+   font-size: 1em;
+   border-radius: 5px;
+   cursor: pointer;
+   border: none;
+   transition: background 0.3s ease;
+ }
+
+ form button:hover {
+   background: #159b70;
+
+ }
+
+ div.error {
+   padding: 10px;
+   background: #ffefef;
+   border: 1px solid var(--error);
+   color: var(--error);
+   border-radius: 4px;
+   margin: 20px 0;
+ }
+
+ input.error {
+   border: 1px solid var(--error);
+ }
+
+ /* Auth Forms */
+ form.signup,
+ form.login {
+   max-width: 400px;
+   margin: 40px auto;
+   padding: 25px;
+   background: #fff;
+   border-radius: 6px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+
+ .popup {
+   position: fixed;
+   top: 20px;
+   left: 50%;
+   transform: translateX(-50%);
+   background: #4caf50;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   z-index: 1000;
+ }
